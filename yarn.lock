@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@10play/tentap-editor@npm:^0.4.7":
-  version: 0.4.7
-  resolution: "@10play/tentap-editor@npm:0.4.7"
+"@10play/tentap-editor@npm:^0.4.8":
+  version: 0.4.8
+  resolution: "@10play/tentap-editor@npm:0.4.8"
   dependencies:
     "@tiptap/extension-blockquote": "npm:^2.2.1"
     "@tiptap/extension-bold": "npm:^2.2.1"
@@ -41,7 +41,7 @@ __metadata:
     react: "*"
     react-native: "*"
     react-native-webview: "*"
-  checksum: 10c0/6cccb31e60daa1afc6c4f9e84801d115b1bf5eb4d95810b3e2d5bfb6314c6ebe51ab41547a1344b70357eb755d7f34acf94031d9271b730acef0733dd0a2daad
+  checksum: 10c0/83699a1ec6428faf960c64ce4c0546ead8315c7ea41dcc7d3d09d3c212b4bf1e2403e7c95656f75759958f68305f98e3fe7c6dcb591a961378965ab3e40b68ca
   languageName: node
   linkType: hard
 
@@ -3339,7 +3339,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "NoteApp@workspace:."
   dependencies:
-    "@10play/tentap-editor": "npm:^0.4.7"
+    "@10play/tentap-editor": "npm:^0.4.8"
     "@babel/core": "npm:^7.20.0"
     "@babel/preset-env": "npm:^7.20.0"
     "@babel/runtime": "npm:^7.20.0"
