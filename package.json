@@ -10,10 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@10play/tentap-editor": "^0.4.4",
+    "@10play/tentap-editor": "^0.4.7",
     "react": "18.2.0",
-    "react-native": "0.73.4",
-    "react-native-webview": "^13.7.1"
+    "react-native": "0.73.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

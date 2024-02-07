@@ -2,16 +2,29 @@
 # yarn lockfile v1
 
 
-"@10play/tentap-editor@^0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@10play/tentap-editor/-/tentap-editor-0.4.4.tgz#6480374c7246a90d9ca27b9cc3c3e98d558d1f07"
-  integrity sha512-sg/Wph9K6f3s/iZLW2axBUMpGM7Hg+BzKEYP+GzrDyHSTax7SKaDZIwDA/HF5k7E5QHO+cnS7p8EgoNfQMUcYA==
+"@10play/tentap-editor@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@10play/tentap-editor/-/tentap-editor-0.4.7.tgz#c313adba85b91d55f90bd7957afc74158d6bd758"
+  integrity sha512-N4IQvvPCmjN1TYrL51rrafdrLaADvMFG1rCmZwxEBltk5YRP32gxIvRYG51fGMA7z9PAq1BohRsQLBdLgDZvPg==
   dependencies:
+    "@tiptap/extension-blockquote" "^2.2.1"
+    "@tiptap/extension-bold" "^2.2.1"
+    "@tiptap/extension-bullet-list" "^2.2.1"
+    "@tiptap/extension-code" "^2.2.1"
+    "@tiptap/extension-code-block" "^2.2.1"
     "@tiptap/extension-color" "^2.1.16"
+    "@tiptap/extension-document" "^2.2.1"
+    "@tiptap/extension-heading" "^2.2.1"
     "@tiptap/extension-highlight" "^2.1.16"
+    "@tiptap/extension-history" "^2.2.1"
+    "@tiptap/extension-horizontal-rule" "^2.2.1"
     "@tiptap/extension-image" "^2.2.1"
+    "@tiptap/extension-italic" "^2.2.1"
     "@tiptap/extension-link" "^2.1.16"
+    "@tiptap/extension-list-item" "^2.2.1"
+    "@tiptap/extension-ordered-list" "^2.2.1"
     "@tiptap/extension-placeholder" "^2.2.1"
+    "@tiptap/extension-strike" "^2.2.1"
     "@tiptap/extension-task-item" "^2.1.16"
     "@tiptap/extension-task-list" "^2.1.16"
     "@tiptap/extension-text-style" "^2.1.16"
@@ -6004,14 +6017,6 @@ react-native-webview@13.6.4:
   version "13.6.4"
   resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-13.6.4.tgz#6ef66db9dd78b2a2ae1b4fe79e1e3597aa29186e"
   integrity sha512-AdgmaMBHPcyERTvng9eSGgHX6AleyUlSusWAxngSOSdiYGgHW81T6C5A8j/ImJAF9oZg0bQDxp43Hu56tzENZQ==
-  dependencies:
-    escape-string-regexp "2.0.0"
-    invariant "2.2.4"
-
-react-native-webview@^13.7.1:
-  version "13.7.1"
-  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-13.7.1.tgz#d7fe1eb5073e692861457d17b4b998f42846426d"
-  integrity sha512-tnfTgjIYY3KnBfbN9hRCJf2y/6JZBev3aq2ZacLml0AZn4ufTe4MyCiE1NAZ/l5WHV/1eaqN0srxn45ATL0+Ow==
   dependencies:
     escape-string-regexp "2.0.0"
     invariant "2.2.4"
