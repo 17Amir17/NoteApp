@@ -12,7 +12,8 @@
   "dependencies": {
     "@10play/tentap-editor": "^0.4.7",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-webview": "^13.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -33,5 +34,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }
