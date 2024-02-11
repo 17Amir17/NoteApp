@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "editor:dev": "vite --config ./src/advanced/Editor/vite.config.ts",
-    "editor:build": "vite --config ./src/advanced/Editor/vite.config.ts build",
+    "editor:build": "vite --config ./src/advanced/Editor/vite.config.ts build && yarn editor:post-build",
+    "editor:post-build": "node ./node_modules/@10play/tentap-editor/scripts/buildEditor.js ./src/advanced/Editor/build/index.html",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -12,7 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@10play/tentap-editor": "^0.4.10",
+    "@10play/tentap-editor": "^0.4.18",
     "react": "18.2.0",
     "react-native": "0.73.4",
     "react-native-webview": "^13.7.1"

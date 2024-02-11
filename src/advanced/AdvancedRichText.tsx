@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
 import {SafeAreaView, View, StyleSheet, Text} from 'react-native';
+import {editorHtml} from './Editor/build/editorHtml';
 import {
   RichText,
   useEditorBridge,
@@ -8,8 +9,6 @@ import {
   TenTapStartKit,
 } from '@10play/tentap-editor';
 
-// @ts-ignore
-// import AdvancedEditor from './Editor/build/index.html';
 import {CounterBridge} from './CounterBridge';
 
 const exampleStyles = StyleSheet.create({
@@ -37,9 +36,8 @@ const Counter = ({editor}: {editor: EditorBridge}) => {
 export const Advanced = () => {
   const editor = useEditorBridge({
     autofocus: true,
-    DEV: true,
     avoidIosKeyboard: true,
-    // customSource: AdvancedEditor, TODODO
+    customSource: editorHtml,
     initialContent: `<p>This is a basic example of implementing images.</p><img src="https://source.unsplash.com/8xznAGy4HcY/800x400" /><p>s sdfdsf fd dsfd ssdfd dsfdsfdsfdsfd</p>`,
     bridgeExtensions: [...TenTapStartKit, CounterBridge],
   });
