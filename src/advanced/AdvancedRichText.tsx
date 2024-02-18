@@ -6,9 +6,8 @@ import {
   useEditorBridge,
   useBridgeState,
   type EditorBridge,
-  TenTapStartKit,
+  CoreBridge,
 } from '@10play/tentap-editor';
-
 import {CounterBridge} from './CounterBridge';
 
 const exampleStyles = StyleSheet.create({
@@ -37,9 +36,10 @@ export const Advanced = () => {
   const editor = useEditorBridge({
     autofocus: true,
     avoidIosKeyboard: true,
+    DEV: true,
     customSource: editorHtml,
     initialContent: `<p>This is a basic example of implementing images.</p><img src="https://source.unsplash.com/8xznAGy4HcY/800x400" /><p>s sdfdsf fd dsfd ssdfd dsfdsfdsfdsfd</p>`,
-    bridgeExtensions: [...TenTapStartKit, CounterBridge],
+    bridgeExtensions: [CoreBridge, CounterBridge],
   });
   const TapRef = useRef(null);
 
